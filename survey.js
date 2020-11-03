@@ -9,7 +9,7 @@ const answers = [];
 
 const outputMessage = (answers) => {
   console.log(`${answers[0]} is a big fan of ${answers[1]} while listening to ${answers[2]}. ${answers[0]} enjoys ${answers[3]} the most, and even more so when it includes ${answers[4]}. ${answers[0]} loves ${answers[5]} the most and is godly at ${answers[6]}`); 
-}
+};
 
 rl.question('What\'s your nickname? ', (answer1) => {
   //console.log(`Thank you for your valuable feedback: ${answer}`);
